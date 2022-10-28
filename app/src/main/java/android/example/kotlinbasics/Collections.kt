@@ -55,6 +55,14 @@ fun main(){
 //    }
 //    ******************** Maps ********************
 
+//    Lambda Expression
+//    val sum: (Int, Int) -> Int = {a:Int, b:Int -> a + b};
+//    val sum = {a:Int, b:Int -> a + b};
+//    println(sum(5,5))
+
+// Internal Modifier => Only Accessible inside the module
+// Protected Modifier => Only Accessible for the super class and the derived class (sub class)
+
 }
 
 data class Fruit(val name: String, val price: Int)
